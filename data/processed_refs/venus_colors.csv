@@ -1,0 +1,22 @@
+Feature_Type_Code,Feature_Type,color
+AA,"Crater, craters",#6082C6
+CM,"Chasma, chasmata",#2D57BC
+CO,"Collis, colles",#33A8A5
+CR,"Corona, coronae",#0AC64F
+DO,"Dorsum, dorsa",#882385
+FL,"Fluctus, fluctÅ«s",#33BA49
+FO,"Fossa, fossae",#D852A0
+FR,"Farrum, farra",#CFB4CA
+LB,"Labyrinthus, labyrinthi",#E8A901
+LI,"Linea, lineae",#7FA72F
+MO,"Mons, montes",#8A2484
+PE,"Patera, paterae",#D748AD
+PL,"Planitia, planitiae",#A0D715
+PM,"Planum, plana",#35C3F3
+RE,"Regio, regiones",#095693
+RU,"Rupes, rupÄs",#387491
+TA,"Terra, terrae",#52FC8A
+TE,"Tessera, tesserae",#5366E2
+TH,"Tholus, tholi",#6F7670
+UN,"Unda, undae",#9995E7
+VA,"Vallis, valles",#51A519

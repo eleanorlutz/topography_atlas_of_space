@@ -1,0 +1,86 @@
+{
+    "venus":{
+        "cmap": ["#e6dfcf", "#f1896e", "#cb2855", "#5f2742"],
+        "levels": [-2400, 4800, 400],
+        "levels_small": [-2000, 6000, 1000],
+        "file_large": "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat30_lon90_downsampled.tif",
+        "file_small": [ "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat-90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat0_lon270_downsampled.tif"],
+        "save_head": "A:/ATLAS_OF_SPACE/image_outputs/topography/",
+        "labelfile": "./data/planetary_features/venus.csv",
+        "limit": 200,
+        "limit_small": 200,
+        "gauss": 10,
+        "gauss_small": 30,
+        "ortho": [90, 30]
+    },
+    
+    "venus_outline":{
+        "cmap": ["#000000", "#000000"],
+        "levels": [-1000, 1000, 1000],
+        "levels_small": [-1000, 1000, 1000],
+        "file_large": "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat30_lon90_downsampled.tif",
+        "file_small": [ "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat-90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/venus_lat0_lon270_downsampled.tif"],
+        "save_head": "A:/ATLAS_OF_SPACE/image_outputs/topography/",
+        "labelfile": "./data/planetary_features/venus.csv",
+        "limit": "NaN",
+        "limit_small": "NaN",
+        "gauss": 0,
+        "gauss_small": 0,
+        "ortho": [90, 30]
+    },
+    
+    "moon":{
+        "cmap": ["#e6dfcf", "#ef9f30", "#638b71", "#24293c"],
+        "levels": [-10000, 10000, 1000],
+        "levels_small": [-20000, 20000, 5000],
+        "file_large": "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/moon_lat30_lon0_downsampled.tif",
+        "file_small": [ "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/moon_lat90_lon0_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/moon_lat-90_lon0_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/moon_lat0_lon180_downsampled.tif"],
+        "save_head": "A:/ATLAS_OF_SPACE/image_outputs/topography/",
+        "labelfile": "./data/planetary_features/moon.csv",
+        "limit": 10,
+        "limit_small": 10,
+        "gauss": 10,
+        "gauss_small": 30,
+        "ortho": [0, 30]
+    },
+    
+    "mars":{
+        "cmap": ["#e6dfcf", "#c2bda9", "#d32026", "#21333d"],
+        "levels": [-9200, 8000, 400],
+        "levels_small": [-8800, 8000, 800],
+        "file_large": "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mars_lat30_lon90_downsampled.tif",
+        "file_small": [ "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mars_lat90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mars_lat-90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mars_lat0_lon270_downsampled.tif"],
+        "save_head": "A:/ATLAS_OF_SPACE/image_outputs/topography/",
+        "labelfile": "./data/planetary_features/mars.csv",
+        "limit": "NaN",
+        "limit_small": "NaN",
+        "gauss": 10,
+        "gauss_small": 30,
+        "ortho": [90, 30]
+    },
+    
+    "mercury":{
+        "cmap": ["#e6dfcf", "#b6a764", "#d04d19", "#24293c"],
+        "levels": [-8000, 8000, 1000],
+        "levels_small": [-9000, 9000, 3000],
+        "file_large": "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mercury_lat30_lon90_downsampled.tif",
+        "file_small": [ "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mercury_lat90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mercury_lat-90_lon90_downsampled.tif",
+                        "A:/ATLAS_OF_SPACE/image_outputs/ortho_DEMs/mercury_lat0_lon270_downsampled.tif"],
+        "save_head": "A:/ATLAS_OF_SPACE/image_outputs/topography/",
+        "labelfile": "./data/planetary_features/mercury.csv",
+        "limit": 200,
+        "limit_small": 200,
+        "gauss": 10,
+        "gauss_small": 30,
+        "ortho": [90, 30]
+    }
+}

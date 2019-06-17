@@ -1,0 +1,18 @@
+Feature_Type_Code,Feature_Type,color
+AA,"Crater, craters",#A26CCD
+AL,Albedo Feature,#2722F9
+CA,"Catena, catenae",#16125C
+DO,"Dorsum, dorsa",#406DF0
+LC,"Lacus, lacÅ«s",#D19DDA
+LF,Landing site name,#BA23FA
+ME,"Mare, maria",#55678A
+MO,"Mons, montes",#40054E
+OC,"Oceanus, oceani",#4B1231
+PA,"Palus, paludes",#B015B7
+PL,"Planitia, planitiae",#3D3B05
+PR,"Promontorium, promontoria",#E28055
+RI,"Rima, rimae",#550CA3
+RU,"Rupes, rupÄs",#750A82
+SF,Satellite Feature,#0BA905
+SI,"Sinus, sinÅ«s",#D5FE2C
+VA,"Vallis, valles",#3BE0EA

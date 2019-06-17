@@ -1,0 +1,17 @@
+object,color,name,depth_order,km_from_previous,reference
+moon,#5f2742,solid inner core,0,240,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#cb2855,liquid iron shell,1,90,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#e07625,partially molten layer,2,150,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#eabf80,mantle,3,1176,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#e6dfcf,crust,4,81.5,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+mars,#542a3e,core,0,1800,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#cc3b3a,mantle,1,1560,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#e6dfcf,crust,2,30,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#9cbfab,atmosphere,3,50,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mercury,#e07625,metallic core,0,2074,https://solarsystem.nasa.gov/planets/mercury/in-depth/
+mercury,#e6dfcf,outer shell,1,400,https://solarsystem.nasa.gov/planets/mercury/in-depth/
+venus,#e07625,iron core,0,3200,https://solarsystem.nasa.gov/planets/venus/in-depth/
+venus,#e6dfcf,mantle and crust,1,2852,https://solarsystem.nasa.gov/planets/venus/in-depth/
+venus,#9cbfab,troposphere,2,62,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
+venus,#527d7a,mesosphere,3,38,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
+venus,#254853,ionosphere,4,162.5,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
