@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+os
+cartopy
+json
+osgeo
+math
+scipy
+jupyter

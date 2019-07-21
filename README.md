@@ -6,7 +6,7 @@
 
 This repository explains how to make topographic maps of planets and moons using open-source data from the [USGS](https://www.usgs.gov/centers/astrogeo-sc/data-tools), [IAU](https://planetarynames.wr.usgs.gov/), and [NASA](https://solarsystem.nasa.gov/). Software used includes `Python 3.7.1`, `GDAL 2.4.1`, `Illustrator CC 2019` and `Photoshop CC 2019`. If you have comments or suggestions for this tutorial, please let me know [on my blog](http://tabletopwhale.com/2019/06/17/a-topographic-map-of-mercury.html)! You can also buy these topographic maps for [Mars](https://www.redbubble.com/people/eleanorlutz/works/39425769), [Venus](https://www.redbubble.com/people/eleanorlutz/works/39425752), [Mercury](https://www.redbubble.com/people/eleanorlutz/works/39425767), and [the Moon](https://www.redbubble.com/people/eleanorlutz/works/39425758).
 
-**Python dependencies:** `matplotlib` `numpy` `pandas` `os` `cartopy` `json` `osgeo` `math` `scipy`
+**Python dependencies:** `matplotlib` `numpy` `pandas` `os` `cartopy` `json` `osgeo` `math` `scipy` `jupyter`. Dependencies can be installed with `pip install -r requirements.txt`.
 
 ![Snapshot of final product](./readme_figures/header_image.jpg)
 
@@ -218,6 +218,36 @@ I wanted the maps in this series to look cohesive, so I made a palette of ~70 di
 ![Color palette used in all maps](./readme_figures/colors.jpg)
 
 ![Fonts used in all maps](./readme_figures/fonts.jpg)
+
+#### Designing a color scheme
+
+To develop this set of colors, I started the project by designing 14 different color schemes. My initial idea was to have a unique color palette for every planet, but in the end I used the same collection of colors throughout all of the projects to make the maps look more cohesive.
+
+![The initial color palettes designed for this project](./readme_figures/color_palettes_initial.jpg)
+
+Each color palette is shown in several different ways, because I wanted to design versatile color schemes that could work as discrete elements, or as pieces of a complex pattern, or as a gradient in topographic maps. I updated these three visualizations while designing to make sure each color scheme would work for each application.
+
+#### Decorative illustrations in Photoshop
+
+For this project I wanted to combine large datasets with the hand-crafted design style of artists like William Morris or Alphonse Mucha. To organize my thoughts I collected a big folder of inspiration images from sources like the [New York Public Library Digital Database](https://www.nypl.org/):
+
+![Inspiration images](./readme_figures/inspiration.jpg)
+
+When I started this project I initially wanted to design different border decorations for every topic. I sketched a collection of 18 different repeated patterns, each meant to go alongside a unique astronomy theme like planets, galaxies, space missions, or satellites.
+
+![Pencil sketches of border illustrations](./readme_figures/borders.jpg)
+
+But as the project continued I realized there was so much data that the detailed borders made the maps look too cluttered. In the end I removed all of the borders and designed just one scrollwork illustration to wrap around rounded map projections. In these round maps I thought the shift from detailed map to blank paper was a bit too abrupt, so this was a good compromise between data-heavy and illustrative design styles.
+
+![Scrollwork design process](./readme_figures/scrollwork_design.jpg)
+
+For this scrollwork design I started with a pencil sketch, and tried a couple different iterations of leafy scrolls before finally picking a less botanically inspired design. When I paint decorations like these in Photoshop, I begin each design as a solid white shape and then gradually break away pieces into detailed chunks. Next, I brush away pieces of each section with the brush eraser tool until the pieces look like a fully-shaded monochrome design. I wait to add color until the very last step, where I use many different colors and overlay layers for a richer effect.
+
+I've included two different examples of these painted Photoshop illustrations in the `figures` folder as `scrollwork_sample.psd` and `decorations_sample.psd`. These files still have the original layers, so you should be able to use it as a reference for layering, painting, and color effects.
+
+![Layers of the scrollwork Photoshop file](./readme_figures/scrollwork_sample.jpg)
+
+![Layers of the decoration Photoshop file](./readme_figures/decoration_sample.jpg)
 
 <a name="references"/>
 
